@@ -1,0 +1,30 @@
+PLINK v1.90b4 64-bit (20 Mar 2017)
+Options in effect:
+  --allow-no-sex
+  --bfile PGG2144_hg18_REF
+  --exclude PGG2144_hg18_REF.bim.CaseInseseDups.ToExclude
+  --keep-allele-order
+  --make-bed
+  --out PGG2144_hg18_REF.NoCaseInsenseDups
+
+Hostname: localhost.localdomain
+Working directory: /data01/wschoi/20211221_massen/ref_test/PGG_2144
+Start time: Tue Dec 21 09:59:04 2021
+
+Random number seed: 1640048344
+257299 MB RAM detected; reserving 128649 MB for main workspace.
+17910 variants loaded from .bim file.
+1835 people (20 males, 7 females, 1808 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to PGG2144_hg18_REF.NoCaseInsenseDups.nosex .
+--exclude: 17899 variants remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1835 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.974418.
+17899 variants and 1835 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to PGG2144_hg18_REF.NoCaseInsenseDups.bed +
+PGG2144_hg18_REF.NoCaseInsenseDups.bim + PGG2144_hg18_REF.NoCaseInsenseDups.fam
+... done.
+
+End time: Tue Dec 21 09:59:05 2021
